@@ -5,7 +5,9 @@ function App() {
 
   return <>
     Hello World!
-    <Card count={3}/>
+    <Card>
+     <>{1}</>
+    </Card>
   </>;
 }
 
