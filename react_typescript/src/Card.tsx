@@ -1,9 +1,11 @@
-function Card({ name, count = 2}: {name: string, count: number}) {
+import type { JSX } from "react"
+
+
+function Card({ children }: {children: JSX.Element}) {
   return (
     <div>
       Card
-      {count}
-      {name}
+      {children}
     </div>
   )
 }
