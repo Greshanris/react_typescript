@@ -1,0 +1,1 @@
+export type colorList = "red" | "green" | "blue" ;
