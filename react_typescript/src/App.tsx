@@ -1,13 +1,12 @@
+import type { colorList } from './@types/color.types';
 import './App.css'
-import Card from './Card';
 
 function App() {
+  
+  const backgroundColor: colorList = "red";
 
   return <>
-    Hello World!
-    <Card>
-     <>{1}</>
-    </Card>
+  {backgroundColor}
   </>;
 }
 
